@@ -1,13 +1,128 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden ;
+}
+.top-nav{
+  top: 0;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.toggle-memu{
+  width: 30px;
+  height: 25px;
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+.toggle-memu span{
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin-top: 2px;
+ 
+  background-color: rgb(190, 190, 190);
+}
+.search-icon{
+  margin-left: -13px;
+  background-color: blue;
+  color: white;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.nav-item ul li{
+margin-top: 19px;
+}
+.nav-item ul li a:hover{
+  color:white !important;
+  
+}
+
+.nav-container{
+  position: fixed;
+  width: 100%;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #3f3c3c;
+  border-radius: 10px;
+}
+.side-container{
+  position: fixed;
+  top: 56px;
+  width: 220px;
+  height: 93vh;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  transition: all .2s ease;
+}
+.main-container{
+  display: inline-block;
+  background-color: #faf3f3;
+  position: absolute;
+  right: 0;
+  top: 56px;
+  z-index: -1;
+  width: calc(100% - 220px);
+  padding: 10px;
+  transition: all .2s ease-out;
+}
+
+.footer{
+  font-size: 13px;
+}
+.full-width{
+  width: 100%;
+  
+}
+.close-side{
+  width: 0;
+}
+
+
+@media screen and (max-width : 768px ) {
+  .main-container{
+    width: 100%;
+    opacity: 0.4;
+  }
+ .full-width{
+  opacity: 1;
+ }
+
+}
+
+@media screen and (max-width : 625px ) {
+.search{
+  display: none !important;
+}
+.height{
+  height: 20vh !important;
+}
+
+}
+.static-page{
+  height: 150vh;
+}
+.lightNav{
+  height: 87vh;
+}
+.height{
+  height: 250px;
+}
+.width{
+  width: 46vw;
+}
+.error{
+  font-size: 10px;
+  margin-top: 20px;
+  color: red;
 }

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .page-container {
+    padding: 14px 20px;
+    margin: 20px auto;
+    width: 300px;
+    min-height: 400px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 5px 8px 15px -9px rgba(0,0,0,0.75);
+    position: relative;
+  }
+  
+  
+  
+  .Heading {
+    color: #1D2226;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-family: Rubik;
+  }
+  
+  .info {
+    color: #74777B;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .colored-button {
+    margin-top: 5px;
+    width: 94%;
+    padding: 8px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6C25FF;
+  }
+  
+  .colored-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  
+  
+  .input-container {
+    margin-top: 30px;
+  }
+  
+  .input-box-container {
+    position: absolute;
+    width: 85%;
+  }
+  
+  .input-box {
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 6px;
+    padding: 9px 10px;
+    color: rgb(60, 60, 60);
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .input-box::placeholder {
+    color: rgb(174, 174, 174);
+  }
+  
+  .input-box:focus {
+    border-color: rgb(120, 117, 117);
+    outline: none;
+  }
+  
+  .label-box {
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+    color: blue;
+    font-size: 12px;
+  }
+  
+  #mandtory {
+    color: red;
+  }
+  
+  .btn-login {
+    margin-top: 9px;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1a82f9;
+  }
+  
+  .btn-login a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .btn-container {
+    width: 86%;
+    position: absolute;
+    bottom: 12px;
+  }
+  
