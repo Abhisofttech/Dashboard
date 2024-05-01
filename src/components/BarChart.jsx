@@ -27,6 +27,7 @@ const BarChart = () => {
             }
         }
     }
+    console.log(Charts);
     return (
     <>
      <div className="container-fluid border rounded shadow">
