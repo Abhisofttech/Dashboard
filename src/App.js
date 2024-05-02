@@ -27,7 +27,7 @@ function App() {
           <div className="nav-container">
             <Navbar toggleNav={toggleNav} />
           </div>
-          <div className={`side-container bg-dark ${isNavVisible ? "close-side" : " "} `}>
+          <div className={`side-container bg-dark  ${isNavVisible ? "close-side" : " "} `}>
             <SideNav />
 
           </div>
@@ -36,7 +36,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Dashboard />} />
               <Route path='/StaticNavigation' element={<StaticNavigation />} />
-              <Route path='/LightSideNavigation' element={<LightSidenav />} />
+              <Route path='/SideNavigation' element={<LightSidenav />} />
               <Route path='/Login' element={<Login />} />
               <Route path='/Register' element={<Register />} />
               <Route path='/ForgetPassword' element={<ForgetPass />} />

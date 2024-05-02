@@ -10,7 +10,7 @@ const StaticNavigation = () => {
    <div className="conainer-fluid static-page d-flex flex-column justify-content-between ">
 
   
-  <LayoutForLayouts head={"Static Navigation"} content={"This page is an example of using static navigation. By removing the .sb-nav-fixed class from the body , the top navigation and side navigation will become static on scroll. Scroll down this page to see an example."}/>
+  <LayoutForLayouts head={"Static Navigation"} content={"This page is an example of using static navigation.  The top navigation and side navigation are  static on scroll. Scroll down this page to see an example."}/>
   <Footer />
   </div>
    </>

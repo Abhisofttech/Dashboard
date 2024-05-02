@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const SideNav = () => {
   return (
     <>
-      <div className="sidenav bg-dark text-white-50" >
+      <div className="sidenav bg-dark text-white-50 " >
         <div className="nav-item">
           <ul className='list-unstyled ms-4 fw-bold' id='sidebar'>
             <li className='mt-4'>CORE</li>
@@ -12,7 +12,7 @@ const SideNav = () => {
             <li> <i className="bi bi-layout-split  me-2"></i>  <Link className='text-decoration-none text-white-50 fw-lighter ' to='' data-bs-toggle="collapse" data-bs-target="#showOne" aria-expanded="false" aria-controls="showOne" >  Layouts  &nbsp; <i className="bi bi-chevron-down"></i> </Link>
               <ul className='list-unstyled ms-4 fw-bold collapse' id="showOne" data-bs-parent="#sidebar">
                 <li> <Link className='text-decoration-none text-white-50 fw-lighter ' to='/StaticNavigation '>Static Navigation</Link></li>
-                <li> <Link className='text-decoration-none text-white-50 fw-lighter ' to='/LightSideNavigation '>Light Sidenav</Link></li>
+                <li> <Link className='text-decoration-none text-white-50 fw-lighter ' to='/SideNavigation '>Side Navigation</Link></li>
               </ul>
             </li>
             <li> <i className="bi bi-book  me-2"></i>  <Link className='text-decoration-none text-white-50 fw-lighter ' to='' data-bs-toggle="collapse" data-bs-target="#showTwo" aria-expanded="false" aria-controls="showTwo">    Pages  &nbsp;  <i className="bi bi-chevron-down"></i></Link>

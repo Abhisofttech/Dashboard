@@ -10,7 +10,7 @@ const ChartPage = () => {
     <>
    
     
-    <LayoutForLayouts head='Charts' content='This page is an example of using static navigation. By removing the .sb-nav-fixed class from the body , the top navigation and side navigation will become static on scroll. Scroll down this page to see an example. '/>
+    <LayoutForLayouts head='Charts' content='Chart.js is a third party plugin that is used to generate the charts in this template. The charts below have been customized - for further customization options, please visit the official Chart.js documentation . '/>
 
     <div className="chart-conatiner p-3">
         <div className="row">
