@@ -105,7 +105,10 @@ margin-top: 19px;
   display: none !important;
 }
 .height{
-  height: 20vh !important;
+  height: 250px !important;
+}
+.width{
+  width: 100% !important;
 }
 
 }
