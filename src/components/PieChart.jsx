@@ -24,7 +24,7 @@ const PieChart = () => {
                 <div className=" border-bottom p-2 d-flex">
                 <i className="bi bi-pie-chart-fill me-3"></i> <p>Pie Chart Example</p>
                 </div>
-                <div className="chart p-auto width height ">
+                <div className="chart  width height ">
                     <Pie data={data} options={option} />
                 </div>
                 <div className=" border-top pt-2 text-secondary d-flex">

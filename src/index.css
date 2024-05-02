@@ -107,9 +107,7 @@ margin-top: 19px;
 .height{
   height: 210px !important;
 }
-.width{
-  width: 100% !important;
-}
+
 
 }
 .static-page{
@@ -122,7 +120,7 @@ margin-top: 19px;
   height: 250px;
 }
 .width{
-  width: 46vw;
+  width: 100%;
 }
 .error{
   font-size: 10px;
